@@ -53,7 +53,7 @@ const employeeSchema = new mongoose.Schema({
   },
   actions: {
     type: String,
-    default: 'Pending', // Example value; could also track state like "Created", "Deleted"
+    default: 'Pending', 
   },
 });
 

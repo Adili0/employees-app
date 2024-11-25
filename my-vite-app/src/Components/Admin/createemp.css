@@ -6,7 +6,7 @@ body {
     background-color: #f9f9f9;
   }
   
-  /* Header Styling */
+
   header {
     background-color: #4CAF50;
     color: white;
@@ -15,7 +15,7 @@ body {
     font-size: 24px;
   }
   
-  /* Table Styles */
+ 
   table {
     width: 100vw;
     border-collapse: collapse;
@@ -39,14 +39,14 @@ body {
     border-radius: 5px;
   }
   
-  /* Top Header Row */
+
   thead tr:first-child th {
     font-size: 14px;
     text-align: right;
     padding-right: 20px;
   }
   
-  /* Input Styling */
+
   input[type="text"] {
     width: 95%;
     padding: 8px;
@@ -54,7 +54,7 @@ body {
     border-radius: 4px;
   }
   
-  /* Button Styling */
+
   button {
     background-color: #007BFF;
     color: white;
@@ -75,7 +75,7 @@ body {
     cursor: not-allowed;
   }
   
-  /* Flexbox for Nested Elements */
+
   td div {
     display: flex;
     flex-direction: column;
@@ -83,7 +83,7 @@ body {
     gap: 5px;
   }
   
-  /* Responsive Design */
+ 
   @media (max-width: 768px) {
     table {
       font-size: 12px;

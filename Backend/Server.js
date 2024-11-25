@@ -17,9 +17,9 @@ mongoose
   });
 
 app.use(cors());
-app.use(express.json()); // Use express.json() to parse JSON requests
+app.use(express.json()); 
 
-// Login route with plain password comparison (without bcrypt)
+
 app.post("/api/login", async (req, res) => {
   try {
     const { username, password } = req.body;
@@ -54,11 +54,9 @@ app.post("/api/login", async (req, res) => {
   }
 });
 
-// app.get('/api/employees',(req,res)=>{
-//      res.json({})
-// })
 
-// API to create employee
+
+
 app.post('/api/employees', async (req, res) => {
   try {
     const {
@@ -192,7 +190,7 @@ app.delete('/api/employees/:uniqueId', async(req,res)=>{
    }
 })
 
-// Start the server"_id
+
 app.listen(PORT, () => {
   console.log(`Server is running on ${PORT}`);
 });
