@@ -1,0 +1,66 @@
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(54, 54, 54, 0.329); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+  }
+  body{
+    background-color: #f8e0e0;
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/28/12/10/chairs-2181951_640.jpg')  ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;  
+  }
+  
+
+  form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(255, 254, 254); 
+  }
+  
+ 
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #423f3f; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+  }
+  
+
+  form input:focus {
+    border-color: #007bff; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+  }
+  
+
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff; 
+    color: white; 
+    font-size: 16px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+
+
+  

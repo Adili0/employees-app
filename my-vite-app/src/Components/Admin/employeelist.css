@@ -1,0 +1,119 @@
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+thead {
+  background-color: #1f61dd;
+  color: #fff;
+}
+
+thead tr th {
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+
+
+tbody tr:hover {
+  background-color: #fdbcbc;
+}
+
+td {
+  padding: 32px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Image Styling */
+img {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+}
+
+/* Button Styling */
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #6d90f0;
+
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: #0cf542;
+}
+
+button.create {
+  background-color: #ecf3ed;
+}
+
+button.create:hover {
+  background-color: #34583c;
+}
+
+/* Search Input */
+input[type="text"] {
+
+  padding: 0 30px;
+  height: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Action Buttons */
+td div {
+  display: flex;
+  gap: 10px;
+}
+
+td div button {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+td div button:hover {
+  opacity: 0.9;
+}
+
+/* Header Styling */
+table th[colspan="8"] {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 15px;
+}
+
+/* Miscellaneous */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.create {
+  background-color: #17a2b8;
+}
+
+.create:hover {
+  background-color: #138496;
+}

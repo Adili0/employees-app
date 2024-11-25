@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100vw;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  thead th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  td img {
+    border-radius: 5px;
+  }
+  
+  /* Top Header Row */
+  thead tr:first-child th {
+    font-size: 14px;
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  /* Input Styling */
+  input[type="text"] {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.create {
+    background-color: #28a745;
+  }
+  
+  button:disabled {
+    background-color: #d6d6d6;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+  /* Flexbox for Nested Elements */
+  td div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    table {
+      font-size: 12px;
+    }
+  
+    th, td {
+      padding: 5px;
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 5px 8px;
+    }
+  
+    input[type="text"] {
+      padding: 5px;
+    }
+  }
+  

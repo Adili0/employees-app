@@ -1,0 +1,22 @@
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #0577d4; 
+    padding: 10px 20px; 
+    font-family: Arial, sans-serif; 
+    text-decoration: none;
+  }
+  
+
+  h1 {
+    font-size: 34px; 
+    color:rgb(71, 67, 39);
+    margin: 0; 
+  }
+.Navlink{
+    color: white;
+    text-decoration: none;
+}
+  
